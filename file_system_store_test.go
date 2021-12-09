@@ -1,4 +1,4 @@
-package main
+package poker
 
 import (
 	"io/ioutil"
@@ -18,8 +18,8 @@ func TestFileSystemStore(t *testing.T) {
 		got := store.GetLeague()
 
 		want := []Player{
-			{"Cleo", 10},
 			{"Chris", 33},
+			{"Cleo", 10},
 		}
 
 		assertNoError(t, err)
