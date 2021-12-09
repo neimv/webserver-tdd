@@ -1,3 +1,3 @@
-module web-server
+module github.com/neimv/webserver-tdd
 
 go 1.17
